@@ -1,0 +1,17 @@
+[project]
+name = "noiseutils"
+version = "0.0.1"
+description = "Utility for neutron noise calculation processing"
+authors = [
+    {name = "LI Zikang", email = "zikang_li-2018@sjtu.edu.cn"}
+]
+maintainers = [
+    {name = "LI Zikang", email = "zikang_li-2018@sjtu.edu.cn"}
+]
+readme = "README.md"
+dependencies = ["numpy", "pyvista"]
+requires-python = ">= 3.9"
+
+[build-system]
+requires = ["numpy", "pyvista", "setuptools"]
+bulid-backend = "setuptools.build_meta"
